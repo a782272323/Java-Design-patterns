@@ -13,7 +13,7 @@ package learn.lhb.design.patterns.principle.inversion.improve;
 public class DependencyPass {
     public static void main(String[] args) {
         /**
-         * 方法一的使用，接口
+         * 方法一的使用，接口Å
          */
         ChangHong changHong = new ChangHong();
         OpenAndClose openAndClose = new OpenAndClose();
