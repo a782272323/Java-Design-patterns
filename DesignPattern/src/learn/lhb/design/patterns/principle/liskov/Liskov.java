@@ -28,7 +28,7 @@ public class Liskov {
 }
 
 /**
- * A 类
+ * A  类
  */
 class A {
     /**

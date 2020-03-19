@@ -42,7 +42,7 @@ class Base {
 }
 
 /**
- * A 类基础 Base基类
+ * A  类基础 Base基类
  */
 class A extends Base {
     /**
