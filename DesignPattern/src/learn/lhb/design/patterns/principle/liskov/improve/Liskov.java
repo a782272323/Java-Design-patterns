@@ -11,11 +11,11 @@ public class Liskov {
     public static void main(String[] args) {
         A a = new A();
         System.out.println("11 - 3 = " + a.func1(11, 3));
-        System.out.println("1 - 8 = "+ a.func1(1,8));
+        System.out.println("1 - 8 = "+ a.func1(1, 8));
         System.out.println("----------------------------");
         B b = new B();
         // 因为B类不继承A类，因此func1不再是相减功能了
-//        System.out.println("11 - 3 = " + b.func1(11, 3));
+        // System.out.println("11 - 3 = " + b.func1(11, 3));
         System.out.println("11 + 3 = " + b.func1(11, 3));
         System.out.println("1 - 8 = " + b.func1(1, 8));
         System.out.println("11 + 3 + 9 = "+ b.func2(11,3));
